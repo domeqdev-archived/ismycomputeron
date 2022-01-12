@@ -1,12 +1,26 @@
-<!DOCTYPE html><html><head><title>Is my computer on?</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><style>h1 {
-  font-size: 76px;
-  line-height: 76px;
-  height: 76px;
-  font-family: Helvetica, sans-serif;
-  font-weight: bold;
-  position: fixed;
-  top: 50%;
-  margin-top: -38px;
-  width: 100%;
-  text-align: center;
-}</style></head><body><h1 title="Probably yes...">Yes!</h1></body></html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Is my computer on?</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    h1 {
+      font-size: 76px!important;
+      line-height: 76px!important;
+      height: 76px!important;
+      font-family: Helvetica, sans-serif!important;
+      font-weight: bold!important;
+      position: fixed!important;
+      top: 50%!important;
+      margin-top: -38px!important;
+      width: 100%!important;
+      text-align: center!important;
+    }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" />
+  </head>
+  <body>
+    <h1 title="Probably yes..." class="hidden sm:block">Yes!</h1>
+    <h1 title="Phone alerto ❗" class="sm:hidden">No</h1>
+  </body>
+</html>
